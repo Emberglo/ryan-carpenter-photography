@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallerystyle.css">
+</head>
+<body>
+    <!-- Gallery Structure -->
+    <div class="row">
+        <div class="column">
+            <img src="https://www.fillmurray.com/300/200" class="myImg" alt="Bill Murray" onclick="openModal();currentSlide(1)">
+            <img src="https://www.fillmurray.com/g/200/300" class="myImg">
+            <img src="https://www.fillmurray.com/640/400" class="myImg">
+            <img src="https://www.fillmurray.com/g/500/250" class="myImg">
+            <img src="https://www.fillmurray.com/250/300" class="myImg">
+            <img src="https://www.fillmurray.com/g/300/305" class="myImg">
+            <img src="https://www.fillmurray.com/1400/1200" class="myImg">
+        </div>
+        <div class="column">
+            <img src="https://www.fillmurray.com/g/400/350" class="myImg">
+            <img src="https://www.fillmurray.com/290/400" class="myImg">
+            <img src="https://www.fillmurray.com/g/320/300" class="myImg">
+            <img src="https://www.fillmurray.com/420/200" class="myImg">
+            <img src="https://www.fillmurray.com/g/201/397" class="myImg">
+            <img src="https://www.fillmurray.com/730/300" class="myImg">
+            <img src="https://www.fillmurray.com/g/2700/3000" class="myImg">
+        </div>
+        <div class="column">
+            <img src="https://www.fillmurray.com/2030/1400" class="myImg">
+            <img src="https://www.fillmurray.com/g/428/397" class="myImg">
+            <img src="https://www.fillmurray.com/160/270" class="myImg">
+            <img src="https://www.fillmurray.com/g/800/570" class="myImg">
+            <img src="https://www.fillmurray.com/880/940" class="myImg">
+            <img src="https://www.fillmurray.com/g/630/410" class="myImg">
+            <img src="https://www.fillmurray.com/480/198" class="myImg">
+        </div>
+    </div>
+
+    <!-- The Lightbox View -->
+    <div id="myModal" class="modal">
+    
+        <!-- Close Button -->
+        <span class="close">&times;</span>
+    
+        <!-- Image -->
+        <img class="modal-content" id="img01">
+    
+        <!-- Image Title -->
+        <div id="caption"></div>
+    </div>
+
+
+<script src="galleryapp.js"></script>
+</body>
+</html>
