@@ -36,12 +36,12 @@
 .modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
+	z-index: 999; /* Sit on top */
 	padding-top: 20px; /* Location of the box */
 	left: 0;
 	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
+	width: 100vw; /* Full width */
+	height: 100vh; /* Full height */
 	background-color: rgb(0, 0, 0); /* If opacity isn't suppored */
 	background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
