@@ -50,10 +50,11 @@
 .modal-content {
 	margin: auto;
 	display: block;
-	height: 90vh;
+	max-height: 90%;
+	max-width: 90%;
 }
 
-/* Image Caption */
+/* Image Caption 
 #caption {
 	margin: auto;
 	display: block;
@@ -62,8 +63,8 @@
 	text-align: center;
 	color: #ccc;
 	padding: 10px 0;
-	/*height: 150px;*/
-}
+	height: 150px;
+}*/
 
 /* Zoom in the Lightbox On Opening */
 .modal-content,
@@ -102,7 +103,8 @@
 /* Image Display On Small Screens */
 @media only screen and (max-width: 700px) {
 	.modal-content {
-		width: 90%;
+		max-width: 90%;
+		max-height: 90%;
 		height: auto;
 	}
 }
