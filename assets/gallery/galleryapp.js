@@ -20,7 +20,8 @@ document.addEventListener(
 		event.preventDefault();
 
 		//push image into modal
-		modalImg.src = this.src;
+		//modalImg.src = this.src;
+		document.getElementById('img01').src = event.target.src;
 
 		// If the clicked element matches, call the openModal function
 		openModal();
