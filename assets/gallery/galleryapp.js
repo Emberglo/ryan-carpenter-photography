@@ -1,6 +1,9 @@
 // Get the modal
 let modal = document.getElementById('myModal');
 
+//set modal image
+let modalImg = document.getElementById('img01');
+
 //display the modal
 function openModal() {
 	document.getElementById('myModal').style.display = 'block';
@@ -17,6 +20,7 @@ document.addEventListener(
 		event.preventDefault();
 
 		//push image into modal
+		modalImg.src = this.src;
 
 		// If the clicked element matches, call the openModal function
 		openModal();
